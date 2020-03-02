@@ -32,7 +32,7 @@ public class NEWSMO01_Newbury_register_from_first_use_notice {
 		
 				//chrome
 		if (browser.equalsIgnoreCase("chrome")) { 
-			System.setProperty("webdriver.chrome.driver","/Users/jay/eclipse-workspace/chromedriver");				
+			System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");				
 			driver= new ChromeDriver();				
 			driver.get("https://www.newburytoday.co.uk/news/news/27964/no-quantitative-need-for-additional-convenience-stores-in-thatcham.html");
 			Newbury_First_use_notice popbitch_first_use_elements= new Newbury_First_use_notice(driver);
