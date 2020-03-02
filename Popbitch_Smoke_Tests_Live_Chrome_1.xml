@@ -5,8 +5,8 @@
    <parameter name="browser" value="chrome" />
     <classes>
   
-   	<class name="Stepdef.Newburylive.NEWSMO02_Newbury_register_from_wallet"/>
-  
+   	<class name="Stepdef.Newburylive.NEWSMO01_Newbury_register_from_first_use_notice"/>
+  	<class name="Stepdef.Newburylive.NEWSMO02_Newbury_register_from_wallet"/>
    
    	
    	 
